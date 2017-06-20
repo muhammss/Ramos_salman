@@ -42,6 +42,7 @@ class Reducetion:
 			self._nsnaps=len(self.source_level())
 		return self._nsnaps
 
+		#reduction field
 		def reduce(self):
 			"""Compute a reduced basis using POD"""
 			#If there are multiple fields, we must compute the weight for each of them
